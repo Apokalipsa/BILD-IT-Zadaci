@@ -19,7 +19,7 @@ public class Zadaci21Jul3 {
 			String repAll = text.replaceAll(" ", ""); // uklanjanje svih razmaka
 			brojKaraktera += repAll.length();
 
-			// Number of words
+			
 			brojRijeci += text.split(" ").length; // Izracunavanje broja rijeci
 
 			// Izracunavanje broja linija teksta

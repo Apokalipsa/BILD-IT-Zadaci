@@ -7,12 +7,12 @@ public class Zadaci21Juli5 {
 		int glava = 0;
 		int pismo = 0;
 		int brojac = 1;
-		while (brojac <= bacanje) { // uslov sve dok je brojac manji od broja bacanja za nastavak programa
-			int ishod = (int) (Math.random()*2);
+		while (brojac <= bacanje) { // uslov sve dok je brojac manji od broja bacanja  nastavi odbrojavanje
+			int ishod = (int) (Math.random()*2); // ishod je ogranicen na 2 jer zelimo samo pismo ili glavu
 
-			if (ishod == 0) {
+			if (ishod == 0) { // uslov ukoliko je pad bio na 0 brojimo glavu
 				glava++;
-			} else {
+			} else {          // uslov ukoliko je pad  nije bio na 0 brojimo pismo
 				pismo++;
 			}
 			brojac++;
