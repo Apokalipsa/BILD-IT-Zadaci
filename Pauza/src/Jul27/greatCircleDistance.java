@@ -11,12 +11,12 @@ public class greatCircleDistance {
 										// kao finalnu varijablu
 
 		System.out
-				.print("Unesite podatke za tacku 1 (sirina i duzina) u stepenima:");
+				.print("Unesite podatke za tacku 1 (sirina and duzina) u stepenima:");
 		x1 = input.nextDouble();
 		y1 = input.nextDouble();
 
 		System.out
-				.print("Unesite podatke za tacku 1 (sirina i duzina) u stepenima:");
+				.print("Unesite podatke za tacku 1 (sirina and duzina) u stepenima:");
 		x2 = input.nextDouble();
 		y2 = input.nextDouble();
 // racunamo distancu zadatom formulom  d = radius * arccos (sin(x1) X sin(x2) + cos(x1) * cos(x2) * cos(y1 - y2)).
