@@ -172,9 +172,9 @@ public class TriangleKlasa {
 				|| contains(t.getP3());
 	}
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		
-		TriangleKlasa t1 = new TriangleKlasa(new MyPoint(2.5, 2), new MyPoint(  // kreiramo objektnu instancu nase klase 
+		//TriangleKlasa t1 = new TriangleKlasa(new MyPoint(2.5, 2), new MyPoint(  // kreiramo objektnu instancu nase klase 
 				4.2, 3), new MyPoint(5, 3.5));
 		
 		MyPoint p = new MyPoint(3, 3);                                          //  kreiramo objektnu instancu i point klase
@@ -189,6 +189,6 @@ public class TriangleKlasa {
 						new MyPoint(4.0, 1), new MyPoint(1, 3.4))));
 		System.out.println("This triangle overlaps another triangle: "
 				+ t1.overlaps(new TriangleKlasa(new MyPoint(2, 5.5),
-						new MyPoint(4, -3), new MyPoint(2, 6.5))));
+						new MyPoint(4, -3), new MyPoint(2, 6.5))));*/
 	}
-}
+
